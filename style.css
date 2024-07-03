@@ -1,3 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cdd1d3;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-image: linear-gradient(to right, #6699cc, #336699);
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    color: #f2f2f2;
+}
+
+.menu li{
+    margin-left: 50px;
+    padding: 30px;
+    font-family: Kanit;
+    font-size: 19px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.slide{
+    height: 65%;
+    width: 190px;
+    position: absolute;
+    background-color: #ffffff;
+    transition: 0.5s ease;
+}
+
+.slide p{
+   color: #fff;
+   background-color: #000080;
+   text-align: center;
+   padding: 5px;
+}
+
+.slide ul li{
+   list-style: none;
+}
+
+.slide ul li a{
+    color: #000;
+    padding: 5px 0;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    transition: 0.2s ease-out;
+
+}
+
+.slide ul li a i{
+    width: 50px;
+    text-align: center;
+}
+
+
+
+
 .header {
     overflow: hidden;
     background-color: #000080;
